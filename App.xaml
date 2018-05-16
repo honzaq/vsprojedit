@@ -1,15 +1,8 @@
-﻿<Application x:Class="vsprojedit.App"
+﻿<Application x:Class="VsProjEdit.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:vsprojedit"
-             StartupUri="MainWindow.xaml">
+             xmlns:local="clr-namespace:VsProjEdit"
+             StartupUri="NewProjectWindow.xaml">
     <Application.Resources>
-        <x:Array x:Key="PropsTypesList" Type="local:PropsTypeItem">
-            <local:PropsTypeItem ValueString="(lib)"/>
-            <local:PropsTypeItem ValueString="(dll)"/>
-            <local:PropsTypeItem ValueString="(headers only)"/>
-            <local:PropsTypeItem ValueString="(dll dependent)"/>
-            <local:PropsTypeItem ValueString="(test)"/>
-        </x:Array>
     </Application.Resources>
 </Application>

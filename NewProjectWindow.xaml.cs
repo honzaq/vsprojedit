@@ -1,6 +1,7 @@
 ﻿using System.Windows;
+using VsProjEdit.ViewModels;
 
-namespace vsprojedit
+namespace VsProjEdit
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -8,7 +9,7 @@ namespace vsprojedit
     public partial class MainWindow : Window
     {
         // Object to bind the combobox selections to.
-        private ViewModelString viewModelString = new ViewModelString();
+        private NewProjectViewModel viewModelString = new NewProjectViewModel();
 
         public MainWindow()
         {
